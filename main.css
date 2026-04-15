@@ -14,7 +14,7 @@
 
 
 .hero{
-            background-image: url(../neweraschool/assets/schoolback.png);
+            background-image: url(./assets/schoolback.png);
             background-size: cover;
             background-position: center;
             background-repeat: no-repeat;
