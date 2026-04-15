@@ -1,5 +1,5 @@
 /*.hero{
-    background-image: url(../neweraschool/assets/schoolback.png);
+    background-image: url(./assets/schoolback.png);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -28,11 +28,11 @@
             }
 
             @keyframes slideshow {
-                0% { background-image: url("../neweraschool/assets/schoollibrary.PNG");}
-                20% { background-image: url("../neweraschool/assets/schoolassembly.jpg");}
-                40% { background-image: url("../neweraschool/assets/schoolchildrenwithbags.PNG");}
-                60% { background-image:  url(../neweraschool/assets/schoolback.png);}
-                100% { background-image: url(../neweraschool/assets/Staffroom.jpg);}
+                0% { background-image: url("./assets/schoollibrary.PNG");}
+                20% { background-image: url("./assets/schoolassembly.jpg");}
+                40% { background-image: url("./assets/schoolchildrenwithbags.PNG");}
+                60% { background-image:  url(./assets/schoolback.png);}
+                100% { background-image: url(./assets/Staffroom.jpg);}
             }
 
  nav ul li:hover{
@@ -44,7 +44,7 @@
         }
 
 .playground{
-    background-image: url(../neweraschool/assets/schoolchildrenwithbags.PNG);
+    background-image: url(./assets/schoolchildrenwithbags.PNG);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -128,7 +128,7 @@
 
 .library{
     height: 100%;
-    background: url("../neweraschool/assets/schoollibrary.PNG");
+    background: url("./assets/schoollibrary.PNG");
     background-position: center;
     background-size: cover;
     background-blend-mode: overlay;
